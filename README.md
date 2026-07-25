@@ -4,6 +4,34 @@
 
 这是一个面向农业场景的害虫识别与交流平台。用户可以上传害虫图片，系统会调用 YOLO 模型进行目标检测，返回害虫类别、置信度和带检测框的结果图，并保存识别历史。项目还提供文章社区、用户关注、频道交流、私信、后台管理和数据统计等功能，适合用于害虫识别展示、农业知识分享和检测记录管理。
 
+## 项目截图
+
+### 登录注册
+
+![登录页面](docs/images/login.png)
+
+### 害虫识别
+
+![害虫识别页面](docs/images/detection.png)
+
+### 文章社区
+
+![文章社区页面](docs/images/article-community.png)
+
+### 交流频道
+
+![交流频道页面](docs/images/channel-chat.png)
+
+### 用户主页
+
+![用户主页](docs/images/user-profile.png)
+
+![个人主页](docs/images/my-profile.png)
+
+### 后台管理
+
+![后台用户管理](docs/images/admin-users.png)
+
 ## 核心功能
 
 - 害虫图片识别：支持多图上传，调用 Flask 推理服务识别害虫类别并返回置信度。
@@ -235,6 +263,34 @@ Flask 推理服务内置了英文类别到中文类别的映射，覆盖稻纵�
 ## Overview
 
 This is an agricultural pest detection and community platform. Users can upload pest images, run YOLO-based object detection, receive pest categories, confidence scores, and annotated result images, and keep detection history. The project also includes article sharing, user follows, channel chat, private messaging, admin management, and dashboard statistics.
+
+## Screenshots
+
+### Login and Registration
+
+![Login page](docs/images/login.png)
+
+### Pest Detection
+
+![Pest detection page](docs/images/detection.png)
+
+### Article Community
+
+![Article community page](docs/images/article-community.png)
+
+### Channel Chat
+
+![Channel chat page](docs/images/channel-chat.png)
+
+### User Profile
+
+![User profile page](docs/images/user-profile.png)
+
+![My profile page](docs/images/my-profile.png)
+
+### Admin Panel
+
+![Admin user management](docs/images/admin-users.png)
 
 ## Core Features
 
