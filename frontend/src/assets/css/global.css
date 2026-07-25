@@ -1,0 +1,52 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f4f4f4;
+
+}
+
+.z-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.z-card {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* 隐藏滚动条，但仍保留滚动功能 */
+.el-scrollbar__wrap {
+    /* scrollbar-width: none; */
+    /* Firefox 隐藏滚动条 */
+    /* -ms-overflow-style: none; */
+    /* IE 和 Edge 隐藏滚动条 */
+}
+
+/* Chrome, Safari 和 Opera 隐藏滚动条 */
+.el-scrollbar__wrap::-webkit-scrollbar {
+    /* display: none; */
+}

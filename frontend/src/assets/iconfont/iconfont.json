@@ -1,0 +1,23 @@
+{
+  "id": "4866986",
+  "name": "害虫识别交流",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6776389",
+      "name": "收藏",
+      "font_class": "shoucang1",
+      "unicode": "eca7",
+      "unicode_decimal": 60583
+    },
+    {
+      "icon_id": "11372651",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e8ad",
+      "unicode_decimal": 59565
+    }
+  ]
+}
